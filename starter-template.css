@@ -1,0 +1,35 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#navbar header {
+  color: white;
+}
+#navbar li {
+  list-style: none;
+}
+
+/* Navbar formatting */
+#main-doc{
+  position: absolute;
+  margin-left:310px;
+  padding:20px;
+  margin-bottom:110px;
+}
+
+#navbar{
+  position:fixed;
+  min-width:290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4)

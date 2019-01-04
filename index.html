@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Bootstrap Documentation - FCC project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
+      <header>
+        Bootstrap 4.2.1
+      </header>
+
+      <ul>
+        <li><a href="#introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#accessibility" class="nav-link">Accessibility</a></li>
+        <li><a href="#alerts" class="nav-link">Alerts</a></li>
+        <li><a href="#approach" class="nav-link">Approach</a></li>
+        <li><a href="#badges" class="nav-link">Badges</a></li>
+      </ul>
+    </nav>
+
+    <main role="main" class="container" id="main-doc">
+
+      <section class="main-section" id="introduction">
+        <header>
+          Introduction
+        </header>
+        <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
+
+        <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+      </section>
+
+      <section class="main-section" id="accessibility">
+        <header>
+          Accessibility
+        </header>
+        <p>
+          Bootstrap provides an easy-to-use framework of ready-made styles, layout tools, and interactive components, allowing developers to create websites and applications that are visually appealing, functionally rich, and accessible out of the box.
+        </p>
+      </section>
+
+      <section class="main-section" id="alerts">
+        <header>
+          Alerts
+        </header>
+        <p>
+          Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+        </p>
+        <code>
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+        </code>
+
+        <code>
+          <div class="alert alert-secondary" role="alert">
+            A simple secondary alert—check it out!
+          </div>
+        </code>
+        <code>
+          <div class="alert alert-success" role="alert">
+            A simple success alert—check it out!
+          </div>
+        </code>
+        <code>
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
+        </code>
+        <code>
+          <div class="alert alert-warning" role="alert">
+            A simple warning alert—check it out!
+          </div>
+        </code>
+      </section>
+
+      <section class="main-section" id="approach">
+        <header>
+          Approach
+        </header>
+        <p>
+          We’ll dive into each of these more throughout, but at a high level, here’s what guides our approach.
+        </p>
+
+        <ul>
+          <li>
+            Components should be responsive and mobile-first
+          </li>
+          <li>
+            Components should be built with a base class and extended via modifier classes
+          </li>
+          <li>
+            Component states should obey a common z-index scale
+          </li>
+          <li>
+            Whenever possible, prefer a HTML and CSS implementation over JavaScript
+          </li>
+          <li>
+            Whenever possible, use utilities over custom styles
+          </li>
+          <li>
+            Whenever possible, avoid enforcing strict HTML requirements (children selectors)
+          </li>
+        </ul>
+
+        <p>
+          Bootstrap’s responsive styles are built to be responsive, an approach that’s often referred to as mobile-first. We use this term in our docs and largely agree with it, but at times it can be too broad. While not every component must be entirely responsive in Bootstrap, this responsive approach is about reducing CSS overrides by pushing you to add styles as the viewport becomes larger.
+        </p>
+
+        <p>
+          Across Bootstrap, you’ll see this most clearly in our media queries. In most cases, we use min-width queries that begin to apply at a specific breakpoint and carry up through the higher breakpoints. For example, a .d-none applies from min-width: 0 to infinity. On the other hand, a .d-md-none applies from the medium breakpoint and up.
+        </p>
+
+        <p>
+          At times we’ll use max-width when a component’s inherent complexity requires it. At times, these overrides are functionally and mentally clearer to implement and support than rewriting core functionality from our components. We strive to limit this approach, but will use it from time to time.
+        </p>
+
+        <p>
+          Aside from our Reboot, a cross-browser normalization stylesheet, all our styles aim to use classes as selectors. This means steering clear of type selectors (e.g., input[type="text"]) and extraneous parent classes (e.g., .parent .child) that make styles too specific to easily override.
+        </p>
+      </section>
+
+      <section class="main-section" id="badges">
+        <header>
+          Badges
+        </header>
+        <p>
+          Badges can be used as part of links or buttons to provide a counter.
+        </p>
+      </section>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Link to CDN for FCC testing -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
+  </body>
+</html>
